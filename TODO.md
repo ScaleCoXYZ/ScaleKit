@@ -1,4 +1,8 @@
-# Tasks
+# TODOs
+
+Why TODO.md? A file offers a quick, version-controlled, offline-accessible task tracking alongside code, complementing formal issue systems. When more people are working on this we can migrate to github issues.
+
+## Tasks
 
 [x] Add ADRs
 [x] Add README
@@ -20,7 +24,7 @@
 
 # ADRS
 
-[ ] Why ADRs
+[x] Why ADRs
 [ ] General architecture
 
 - Monorepo
