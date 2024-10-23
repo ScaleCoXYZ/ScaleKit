@@ -6,12 +6,11 @@ Why TODO.md? A file offers a quick, version-controlled, offline-accessible task 
 
 [x] Add ADRs
 [x] Add README
-[ ] Setup Turborepo
-[ ] Setup NextJS with pnpm build running on a container
+[x] Setup Monorepo NX - https://nx.dev/concepts/turbo-and-nx
 [ ] Setup up TRPc with TanStack Query
 [ ] Setup auth container and integration
 [ ] Setup db container and integration
-[ ] Setup prisma
+[ ] Setup drizzle
 [ ] Setup react native
 [ ] Setup a themable design system for both web and native
 [ ] Setup a handful of common themes based popular UI
@@ -27,10 +26,14 @@ Why TODO.md? A file offers a quick, version-controlled, offline-accessible task 
 [x] Why ADRs
 [ ] General architecture
 
-- Monorepo
+- Monorepo https://nx.dev/concepts/turbo-and-nx
 - TS on the frontend and backend
 - TRPc
-- React + NextJs
+- React + Remix
+- ReactNative + Expo
+- Tailwind, NativeWind
+- DaisyUI
+-
 
 [ ] Why Turbo for a mono repo
 [ ] How we do Terraform
