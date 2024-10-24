@@ -17,9 +17,18 @@
       ]
     },
     "dev": {
-      "dependsOn": [
-        "^build"
-      ]
+      "executor": "nx:run-many",
+      "options": {
+        "targets": [
+          "dev"
+        ],
+        "projects": [
+          "remix-app",
+          "trpc-express-api",
+          "design-system"
+        ],
+        "parallel": true
+      }
     }
   },
   "workspaceLayout": {

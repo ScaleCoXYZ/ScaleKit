@@ -1,0 +1,29 @@
+{
+  "name": "trpc-express-api",
+  "sourceRoot": "apps/trpc-express-api/src",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "pnpm run build",
+        "cwd": "apps/trpc-express-api"
+      }
+    },
+    "serve": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "pnpm start",
+        "cwd": "apps/trpc-express-api"
+      }
+    },
+    "dev": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "pnpm run dev",
+        "cwd": "apps/trpc-express-api"
+      }
+    }
+  },
+  "tags": []
+}

@@ -1,0 +1,19 @@
+{
+  "name": "my-remix-app",
+  "targets": {
+    "dev": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "pnpm run dev",
+        "cwd": "apps/my-remix-app"
+      }
+    },
+    "build": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "pnpm run build",
+        "cwd": "apps/my-remix-app"
+      }
+    }
+  }
+}
