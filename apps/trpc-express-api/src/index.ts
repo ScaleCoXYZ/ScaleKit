@@ -1,18 +1,16 @@
 import * as express from "express";
+import * as cors from "cors";
 import * as trpcExpress from "@trpc/server/adapters/express";
-import { z } from "zod";
-import { initTRPC } from "@trpc/server";
-
-const t = initTRPC.create();
-const appRouter = t.router({
-  hello: t.procedure
-    .input(z.string().nullish())
-    .query(({ input }) => `Hello ${input ?? "World"}`),
-});
-
-export type AppRouter = typeof appRouter;
-
+import { appRouter } from "./trpcRoutes";
+export type { AppRouter } from "./trpcRoutes";
 const app = express();
+
+app.use(
+  cors({
+    origin: "http://localhost:5173", // Your Remix app's URL
+    credentials: true,
+  })
+);
 
 app.use(
   "/trpc",

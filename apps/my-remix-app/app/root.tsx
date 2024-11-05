@@ -6,8 +6,13 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 import type { LinksFunction } from "@remix-run/node";
+import { TrpcProvider } from "~/trpc/TrpcProvider";
 
 import "./tailwind.css";
+
+if (import.meta.hot) {
+  import.meta.hot.accept();
+}
 
 export const links: LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -32,7 +37,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Links />
       </head>
       <body>
-        {children}
+        <TrpcProvider>{children}</TrpcProvider>
         <ScrollRestoration />
         <Scripts />
       </body>

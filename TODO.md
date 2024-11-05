@@ -9,7 +9,8 @@ Why TODO.md? A file offers a quick, version-controlled, offline-accessible task 
 [x] Setup Monorepo NX - https://nx.dev/concepts/turbo-and-nx
 [x] Setup NX dev
 [x] Setup TRPc in express-api
-[ ] Setup TanStack Query to run with TRPc
+[x] Setup TanStack Query to run with TRPc
+[x] Setup Basic Product Example TanStack Query to run with TRPc
 [ ] Setup react native + expo with pnpm
 [ ] Setup web design system tailwind, daisy ui and chadcn
 [ ] Setup layout library
