@@ -15,10 +15,12 @@ Why TODO.md? A file offers a quick, version-controlled, offline-accessible task 
 [ ] Setup web design system tailwind, daisy ui and chadcn
 [ ] Setup layout library
 [ ] Setup react native designs system + nativewind + (create native daisy ui light)
-[ ] Setup auth container and integration
+[ ] Setup a way to specify config for both client and server
 [ ] Setup drizzle in express-api
 [ ] Setup db container and integration
 [ ] Setup async jobs framework and web hooks along with container
+[ ] Setup auth container and integration
+[ ] Setup user domain
 [ ] Setup NX build
 [ ] Setup NX test
 [ ] Setup NX start
