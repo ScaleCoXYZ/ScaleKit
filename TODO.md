@@ -12,6 +12,7 @@ Why TODO.md? A file offers a quick, version-controlled, offline-accessible task 
 [x] Setup TanStack Query to run with TRPc
 [x] Setup Basic Product Example TanStack Query to run with TRPc
 [x] Setup react native + expo with pnpm
+[x] Setup up react native to call from expo
 [ ] Setup web design system tailwind, daisy ui and chadcn
 [ ] Setup layout library
 [ ] Setup react native designs system + nativewind + (create native daisy ui light)

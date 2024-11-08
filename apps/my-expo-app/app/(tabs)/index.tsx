@@ -4,8 +4,10 @@ import { HelloWave } from "@/components/HelloWave";
 import ParallaxScrollView from "@/components/ParallaxScrollView";
 import { ThemedText } from "@/components/ThemedText";
 import { ThemedView } from "@/components/ThemedView";
+import { trpcReact } from "@/clients/trpc";
 
 export default function HomeScreen() {
+  const { data: greeting } = trpcReact.hello.useQuery("Expo");
   return (
     <ParallaxScrollView
       headerBackgroundColor={{ light: "#A1CEDC", dark: "#1D3D47" }}
@@ -17,7 +19,9 @@ export default function HomeScreen() {
       }
     >
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Welcome to ScaleKit Demo!</ThemedText>
+        <ThemedText type="title">
+          {greeting}! Welcome to the ScaleKit Demo!
+        </ThemedText>
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
