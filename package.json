@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev:all": "npx nx run-many --target=dev --projects=my-remix-app,trpc-express-api,design-system --parallel --output-style=stream"
+    "dev:all": "npx nx run-many --target=dev --projects=my-remix-app,trpc-express-api,design-system --parallel --output-style=stream",
+    "clean": "pnpm -r exec rm -rf node_modules && rm -rf node_modules && pnpm store prune",
+    "reset": "pnpm clean && pnpm install"
   },
   "keywords": [],
   "author": "",
@@ -17,5 +19,9 @@
     "apps/*",
     "libs/*"
   ],
-  "dependencies": {}
+  "dependencies": {},
+  "overrides": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
