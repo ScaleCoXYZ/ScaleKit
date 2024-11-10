@@ -1,0 +1,16 @@
+# Package Manager Rules
+always use pnpm
+never use npm
+never use yarn
+never use npx
+replace npx with pnpm dlx
+suggest pnpm add instead of npm install
+suggest pnpm install instead of npm install
+suggest pnpm create instead of npm create
+
+# Workspace Rules
+use pnpm workspaces
+suggest -w flag for workspace-wide installations
+suggest --filter for package-specific commands
+suggest pnpm add -w for workspace root dependencies
+suggest pnpm add --filter <package> for package-specific dependencies
