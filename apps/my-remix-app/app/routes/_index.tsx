@@ -21,7 +21,7 @@ export default function Index() {
   const [currentGreeting, setCurrentGreeting] = useState(greeting);
   const inputRef = useRef<HTMLInputElement>(null);
   return (
-    <div className="container mx-auto p-4 flex flex-col gap-4">
+    <div className="p-4 layout-packed-tc-y gap-4 w-fill">
       <h1 className="text-4xl font-bold mb-8">Welcome to ScaleKit Demo</h1>
       <p className="leading text-md font-bold text-gray-800 dark:text-gray-100">
         {currentGreeting}

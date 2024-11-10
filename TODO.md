@@ -13,8 +13,8 @@ Why TODO.md? A file offers a quick, version-controlled, offline-accessible task 
 [x] Setup Basic Product Example TanStack Query to run with TRPc
 [x] Setup react native + expo with pnpm
 [x] Setup up react native to call from expo
-[ ] Setup web design system tailwind, daisy ui and chadcn
-[ ] Setup layout library
+[x] Setup web design system tailwind, daisy ui
+[x] Setup layout library
 [ ] Setup react native designs system + nativewind + (create native daisy ui light)
 [ ] Setup a way to specify config for both client and server
 [ ] Setup drizzle in express-api
@@ -22,6 +22,8 @@ Why TODO.md? A file offers a quick, version-controlled, offline-accessible task 
 [ ] Setup async jobs framework and web hooks along with container
 [ ] Setup auth container and integration
 [ ] Setup user domain
+[ ] Use chadcn to build out user UI
+[ ] Fix layout height bug
 [ ] Setup NX build
 [ ] Setup NX test
 [ ] Setup NX start

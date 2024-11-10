@@ -25,13 +25,13 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
+    "@layouts-css/tailwindcss-plugin": "^1.1.1",
     "@remix-run/dev": "^2.13.1",
     "@types/react": "^18.2.20",
     "@types/react-dom": "^18.2.7",
     "@typescript-eslint/eslint-plugin": "^6.7.4",
     "@typescript-eslint/parser": "^6.7.4",
     "autoprefixer": "^10.4.19",
-    "daisyui": "^4.12.14",
     "esbuild": "^0.21.5",
     "eslint": "^8.38.0",
     "eslint-import-resolver-typescript": "^3.6.1",
