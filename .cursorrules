@@ -14,3 +14,6 @@ suggest -w flag for workspace-wide installations
 suggest --filter for package-specific commands
 suggest pnpm add -w for workspace root dependencies
 suggest pnpm add --filter <package> for package-specific dependencies
+
+# Framework Rules
+when using expo suggest solutions using version 52 or newer
