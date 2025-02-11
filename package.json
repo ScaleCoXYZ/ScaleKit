@@ -13,15 +13,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "nx": "^20.0.0"
+    "nx": "^20.3.1"
   },
   "workspaces": [
     "apps/*",
     "libs/*"
-  ],
-  "dependencies": {},
-  "overrides": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  }
+  ]
 }
