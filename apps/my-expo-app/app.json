@@ -5,8 +5,9 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "my-expo-app",
     "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
     "splash": {
       "image": "./assets/images/splash.png",
       "resizeMode": "contain",
@@ -21,11 +22,10 @@
         "backgroundColor": "#ffffff"
       }
     },
-    "web": {
-      "bundler": "metro",
-      "output": "static",
-      "favicon": "./assets/images/favicon.png"
-    },
+    "fonts": [
+      "./assets/fonts/Inter-VariableFont_opsz,wght.ttf",
+      "./assets/fonts/Inter-Italic-VariableFont_opsz,wght.ttf"
+    ],
     "plugins": [
       "expo-router"
     ],

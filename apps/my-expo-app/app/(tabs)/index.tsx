@@ -4,10 +4,11 @@ import { HelloWave } from "@/components/HelloWave";
 import ParallaxScrollView from "@/components/ParallaxScrollView";
 import { ThemedText } from "@/components/ThemedText";
 import { ThemedView } from "@/components/ThemedView";
-import { trpcReact } from "@/clients/trpc";
+// import { trpcReact } from "@/clients/trpc";
 
 export default function HomeScreen() {
-  const { data: greeting } = trpcReact.hello.useQuery("Expo");
+  // const { data: greeting } = trpcReact.hello.useQuery("Expo");
+  const greeting = "Hello";
   return (
     <ParallaxScrollView
       headerBackgroundColor={{ light: "#A1CEDC", dark: "#1D3D47" }}
